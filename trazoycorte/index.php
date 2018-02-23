@@ -55,9 +55,9 @@
 <body>
     <div class="wrapper">
 
-        <div id="navegacion">
+     
             <?php include_once 'paginas/menu_principal.php'?>
-        </div>
+
 
         <div class="main-panel">
             <nav class="navbar navbar-transparent navbar-absolute">
@@ -76,9 +76,9 @@
             </nav>
             <div class="content" id="contenido" style=" padding: 1px 15px;">
 
-                <div id="introduccion">
+           
                     <?php include_once 'paginas/introduccion.php'?>
-                </div>
+              
             
           
 

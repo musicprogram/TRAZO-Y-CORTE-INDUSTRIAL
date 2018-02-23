@@ -12,7 +12,7 @@
     <div class="sidebar-wrapper">
         <ul class="nav">
             <li >
-                <a id="introduccion">
+                <a href="index.php">
 
                     <p>- Introducción</p>
                 </a>
@@ -79,10 +79,6 @@
         $('#contenido').load('paginas/organigrama.php').slideDown(560);
     })
 
-    $('#introduccion').click(function(){
-
-        $('#contenido').load('paginas/introduccion.php').slideDown(560);
-    })
 
     $('#tejidos').click(function(){
 
